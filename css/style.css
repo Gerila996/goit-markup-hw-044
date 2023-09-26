@@ -243,3 +243,61 @@
   .address a:visited {
     color: var(--inactive-link2);
   }
+  /* ---------------------- Tema 3 --------------------*/
+/* ---------------------- Header --------------------*/
+body {
+  margin: 0;
+}
+
+.global-header-container {
+  display: flex;
+  align-items: center;
+  width: 1600px;
+  margin: 0 auto;
+}
+.global-header {
+  border-bottom: 1px;
+  border: 1px solid #ececec;
+}
+.main-nav ul li {
+  padding: 32px 0px;
+}
+.global-header-contact li {
+  padding: 32px 0px;
+}
+.global-header .logo-link {
+  padding: 24px 93px 25px 215px;
+}
+.logo {
+  margin: 0;
+}
+.global-header .main-nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 259px;
+  padding: 0px 385px 0px 0px;
+  margin: 0px;
+}
+.global-header .global-header-contact {
+  display: flex;
+  justify-content: space-between;
+  width: 288px;
+  padding: 0px 215px 0px 0px;
+  margin: 0px;
+}
+/* ---------------------- Main --------------------*/
+.main {
+  width: 1600 px;
+  height: 600 px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200px 0px;
+}
+.main-title {
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
