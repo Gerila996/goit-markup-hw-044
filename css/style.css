@@ -348,3 +348,61 @@ body {
 .main-our-team-description li {
   background-color: #ffffff;
 }
+/* ---------------------- Footer --------------------*/
+.logo-footer {
+  padding: 60px 1240px 28px 215px;
+  margin: 0 auto;
+}
+.global-footer-container ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 72px;
+  margin: 0px;
+  padding: 0px 1154px 60px 215px;
+  margin: 0 auto;
+}
+/* ---------------------- Portofolio --------------------*/
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 62px 0px 50px 0px;
+  margin: 0 auto;
+}
+.button-list li button {
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+.images-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0px 0px 94px 0px;
+  margin: 0 auto;
+  width: 1200px;
+}
+.images-list li {
+  border: 1px solid #eeeeee;
+  padding: 0px 0px 0px 0px;
+}
+.images-text {
+  padding: 20px 24px;
+}
+.images-text h3,
+.images-text p {
+  margin: 0;
+}
+
+.main-title-images {
+  padding: 0px 0px 4px 0px;
+}
+/* ---------------------- Observatie--------------------*/
+.main-what-we-do-images li img,
+.main-our-team-description li img,
+.images-list li img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
