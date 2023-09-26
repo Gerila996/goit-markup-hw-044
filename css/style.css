@@ -301,3 +301,50 @@ body {
   padding: 30px;
   text-align: center;
 }
+/* ---------------------- skill --------------------*/
+.main-section-skil {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 94px 0px 94px 0px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-skil {
+  margin: 0px;
+  padding: 0px;
+}
+.main-skil-details {
+  margin: 0px;
+  padding-top: 10px;
+}
+/* ---------------------- What we do --------------------*/
+.main-what-we-do {
+  margin: 0;
+  padding-bottom: 50px;
+}
+.main-what-we-do-images {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin: 0 auto;
+  padding: 0px 0px 94px 0px;
+  width: 1200px;
+}
+/* ---------------------- Our team --------------------*/
+.main-our-team {
+  margin: 0px;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.main-our-team-description {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0px 0px 94px 0px;
+  margin: 0 auto;
+  width: 1200px;
+}
+.main-our-team-description li {
+  background-color: #ffffff;
+}
